@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="style2.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+<p id="css">Css Selector`s</p>
+<table border="5" bgcolor="blue">
+    
+    <tr>
+<thead>
+
+<th><h1>
+Selector</h1></th>
+<th><h1>Meaning</h1></th>
+<th><h1>Example</h1></th>
+
+</thead>
+<h2>
+
+    </tr>
+    
+    
+    <tr>
+
+        
+        <td class="td">Universal selector</td> 
+        <td>Applies to all elements in the
+     <Script:src></Script:src>           document   </td>
+                <td>
+
+                       * {}
+                        Targets all elements on the page
+
+                </tr></td>
+
+                <tr id="common">
+
+<td>Type Selector  </td>
+<td> Matches element names </td>
+<td> h1, h2, h3 {}
+    Targets the,and
+    elements  </td>
+
+                </tr>
+
+    <tr>
+
+<td>
+    Class Selector:
+
+</td>
+<td>
+
+  <pre>  Matches an element whose class attribute has a value that
+matches the one specified after the period (or full stop) symbol
+</pre>
+</td>
+<td>
+
+  <pre>  .note {}
+    Targets any element whose class attribute has a value of note
+    p.note {}
+    Targets only p elements whose class attribute has a
+    value of note  </pre>
+
+</td>
+
+</tr>
+    
+    <tr>
+<td>
+
+ID Selector:
+</td>
+<td>
+
+<pre>
+
+    Matches an element whose id attribute has a value that
+matches the one specified after the pound or hash symbol
+</pre>
+
+</td>
+<td>
+
+<pre>
+
+    #introduction {} Targets the element whose
+    id attribute has a value of introduction
+</pre>
+
+</td>
+
+    </tr>
+
+    <tr>
+
+<td>
+
+Child selector:
+
+</td>
+<td>
+<pre>
+    Matches an element that is a
+    direct child of another
+</pre>
+</td>
+<td>
+<pre>
+    li>a {}
+    Targets any a elements that are children of an li element
+    (but not other a elements in the page)
+</pre>
+</td>
+
+    </tr>
+
+    <tr>
+
+<td>
+
+    Descendant Selector:
+
+</td>
+<td>
+
+    <pre>
+
+        Matches an element that is descendent of another specified
+        element (not just a direct child of that element)
+
+    </pre>
+
+</td>
+<td>
+
+<pre>
+
+    p a {}
+    Targets any a elements that sit inside a p element, even if
+    there are other elements nested between them
+
+</pre>
+
+</td>
+
+    </tr>
+
+    <tr>
+
+        
+
+
+    <td>
+
+<pre>
+
+    AdjacenT Sibling Selector:
+
+</pre>
+    </td>
+    <td>
+<pre>
+
+    Matches an element that is the
+    next sibling of another
+</pre>
+
+
+    </td>
+    <td>
+<pre>
+        h1+p {}
+        Targets the first p element after any h1 element 
+        (but not other p elements)
+    </pre>
+
+    </td>
+</h2>
+</body>
+</html>
